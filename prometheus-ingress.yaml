@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: prometheus-ing
+  namespace: monitoring
+spec:
+  rules:
+  - host: prometheus.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: prometheus-svc
+          servicePort: 9090
