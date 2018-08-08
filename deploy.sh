@@ -33,4 +33,9 @@ for yaml in *.yaml; do
   eval "${KUBECTL} apply -f \"${yaml}\""
 done
 
+# kube-state-metrics
+for kube_state_metrics_yaml in kube-state-metrics/*.yaml; do
+  eval "${KUBECTL} apply -f \"${kube_state_metrics_yaml}\""
+done
+
 eval "${KUBECTL} get pods $@"
