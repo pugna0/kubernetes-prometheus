@@ -1,0 +1,12 @@
+[ver:1,total:900]
+deploy.sh:295,1533722400:295,m
+kube-state-metrics/kube-state-metrics-cluster-role.yaml:165,1533722400:165,m
+prometheus-rbac.yaml:157,1533722400:157,r
+undeploy.sh:145,1533722400:145,r
+kube-state-metrics/kube-state-metrics-service-account.yaml:35,1533722400:35,m
+kube-state-metrics/kube-state-metrics-role-binding.yaml:35,1533722400:35,m
+.gitignore:30,1533722400:30,m
+kube-state-metrics/kube-state-metrics-service.yaml:15,1533722400:15,m
+kube-state-metrics/kube-state-metrics-role.yaml:9,1533722400:9,m
+kube-state-metrics/kube-state-metrics-cluster-role-binding.yaml:7,1533722400:7,m
+kube-state-metrics/kube-state-metrics-deployment.yaml:7,1533722400:7,m
